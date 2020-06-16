@@ -24,7 +24,7 @@ To ensure efficient computation, **pixels were normalized** to values from 0 to 
 #### Model Architecture
 The basic structure of a CNN model consists of CNN layer, followed by a pooling layer and an optional dropout, then fully connected layers with activations and output layer. I've tried different combinations of activations, dropout, and batch normalization, and below is the high-level architecture of my final and best performing convolutional neural network (CNN) model.  
 
-![CNN Model](/images/cnn.png)
+![CNN Model](/cnn.png)
 
 Since this is a binary classification problem, we used ReLU activation to output non-negative values and fed into a sigmoid softmax function that predicts an output probability, which can be converted to class values based on our threshold.
 
